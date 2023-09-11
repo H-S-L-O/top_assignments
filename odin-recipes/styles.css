@@ -5,6 +5,7 @@
   text-align: center;
   height: 40px;
   border-radius: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .image {
@@ -28,4 +29,37 @@
 
 .links.back {
   margin-top: 50px;
+}
+
+.image.big {
+  width: 500px;
+}
+
+
+.para, .sub {
+  text-align: center;
+}
+
+.inst {
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.inst.abo {
+  width: 100%;
+  display: inline-block;
+}
+
+.inst.bel {
+  background-color: orange;
+}
+
+.image.mar {
+  margin: 15px auto 20px; 
+  display:block;
 }
