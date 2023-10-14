@@ -54,6 +54,8 @@ nav{
   font-size: 48px;
 }
 
+
+
 #bigimg {
   width: 250px;
 }
@@ -61,4 +63,23 @@ nav{
 .smallimg {
   width: 150px;
   height: 150px;
+}
+.areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerareas {
+  display: flex;
+  gap: 50px;
+  padding: 30px 30px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
