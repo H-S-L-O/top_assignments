@@ -24,6 +24,7 @@ nav{
 .links {
   display: flex;
   gap: 25px;
+  font-size: 18px;
 }
 
 .mainsection {
@@ -39,6 +40,7 @@ nav{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-size: 18px;
 }
 
 .logo {
@@ -50,10 +52,15 @@ nav{
   font-size: 24px;
 }
 
+.medium {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
 .big {
   font-size: 48px;
 }
-
 
 
 #bigimg {
@@ -63,12 +70,18 @@ nav{
 .smallimg {
   width: 150px;
   height: 150px;
+  border: 2px solid #3882f6;
+  background-color: #3882f655;
+  padding: 5px;
+  border-radius: 8px;
 }
 .areas {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  padding: 5px 30px 60px;
 }
 
 .containerareas {
@@ -82,4 +95,71 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+}
+
+.block figcaption {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 70px 70px;
+  gap: 20px;
+  background-color: #e5e7eb;
+}
+
+.imagination {
+  color: #1f2937;
+  font-style: oblique;
+  font-size: 36px;
+}
+
+.einstein {
+  align-self: flex-end;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.alert {
+  display: flex;
+  margin: 70px 120px 70px;
+  padding: 20px;
+  justify-content: space-around;
+  gap: 170px;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+
+}
+
+.signtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0px;
+}
+
+.border {
+  border: 2px solid #f9faf8;
+}
+
+footer {
+  display: flex;
+  padding: 30px 70px 30px;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
 }
